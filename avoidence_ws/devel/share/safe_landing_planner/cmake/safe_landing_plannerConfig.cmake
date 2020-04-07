@@ -1,0 +1,1 @@
+/home/nhamtung/TungNV/MyDrone/avoidence_ws/devel/.private/safe_landing_planner/share/safe_landing_planner/cmake/safe_landing_plannerConfig.cmake

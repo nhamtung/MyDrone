@@ -1,0 +1,1 @@
+/home/nhamtung/TungNV/MyDrone/avoidence_ws/devel/.private/global_planner/share/common-lisp/ros/global_planner/msg/_package.lisp
