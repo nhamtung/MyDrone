@@ -1,2 +1,2 @@
-
+example_pkg
 -DCATKIN_DEVEL_PREFIX=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/install -G Unix Makefiles
