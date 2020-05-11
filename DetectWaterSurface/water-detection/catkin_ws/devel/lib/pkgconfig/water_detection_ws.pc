@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/devel
+
+Name: water_detection_ws
+Description: Description of water_detection_ws
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

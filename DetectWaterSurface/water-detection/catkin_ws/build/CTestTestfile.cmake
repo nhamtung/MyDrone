@@ -6,3 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("example_pkg")
+subdirs("video_stream_opencv")
+subdirs("water_detection_ws")

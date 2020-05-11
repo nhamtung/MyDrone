@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
 # license removed for brevity
 import rospy
 from std_msgs.msg import String

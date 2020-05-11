@@ -127,7 +127,7 @@ clean: CMakeFiles/download_extra_data.dir/clean
 # Target rules for target CMakeFiles/run_tests.dir
 
 # All Build rule for target.
-CMakeFiles/run_tests.dir/all:
+CMakeFiles/run_tests.dir/all: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/all
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests"
@@ -1365,6 +1365,1385 @@ example_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 clean: example_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory video_stream_opencv
+
+# Convenience name for "all" pass in the directory.
+video_stream_opencv/all: video_stream_opencv/CMakeFiles/video_stream_opencv.dir/all
+video_stream_opencv/all: video_stream_opencv/CMakeFiles/video_stream_node.dir/all
+video_stream_opencv/all: video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/all
+
+.PHONY : video_stream_opencv/all
+
+# Convenience name for "clean" pass in the directory.
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/video_stream_opencv.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/video_stream_node.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/clean
+video_stream_opencv/clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/clean
+
+.PHONY : video_stream_opencv/clean
+
+# Convenience name for "preinstall" pass in the directory.
+video_stream_opencv/preinstall:
+
+.PHONY : video_stream_opencv/preinstall
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all: CMakeFiles/tests.dir/all
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target _run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test"
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/rule
+
+# Convenience name for target.
+_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/rule
+
+.PHONY : _run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test"
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/rule
+
+# Convenience name for target.
+run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/rule
+
+.PHONY : run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test"
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/rule
+
+# Convenience name for target.
+run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/rule
+
+.PHONY : run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target nodelet_generate_messages_py"
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_py: video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/rule
+
+.PHONY : nodelet_generate_messages_py
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target bond_generate_messages_nodejs"
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_nodejs: video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+
+.PHONY : bond_generate_messages_nodejs
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/bond_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target nodelet_generate_messages_lisp"
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_lisp: video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+
+.PHONY : nodelet_generate_messages_lisp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target nodelet_generate_messages_nodejs"
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_nodejs: video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+
+.PHONY : nodelet_generate_messages_nodejs
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_py"
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/all: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests_video_stream_opencv"
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/rule
+
+# Convenience name for target.
+run_tests_video_stream_opencv: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/rule
+
+.PHONY : run_tests_video_stream_opencv
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/video_stream_opencv.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/video_stream_opencv.dir/all: video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/video_stream_opencv.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/video_stream_opencv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num=19,20 "Built target video_stream_opencv"
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_opencv.dir/all
+
+# Include target in all.
+all: video_stream_opencv/CMakeFiles/video_stream_opencv.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/video_stream_opencv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/video_stream_opencv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_opencv.dir/rule
+
+# Convenience name for target.
+video_stream_opencv: video_stream_opencv/CMakeFiles/video_stream_opencv.dir/rule
+
+.PHONY : video_stream_opencv
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/video_stream_opencv.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/video_stream_opencv.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_opencv.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/video_stream_opencv.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target nodelet_generate_messages_eus"
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_eus: video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+
+.PHONY : nodelet_generate_messages_eus
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests_video_stream_opencv_rostest_test_test_video_file.test"
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/rule
+
+# Convenience name for target.
+run_tests_video_stream_opencv_rostest_test_test_video_file.test: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/rule
+
+.PHONY : run_tests_video_stream_opencv_rostest_test_test_video_file.test
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_nodejs: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target bond_generate_messages_cpp"
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_cpp: video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/rule
+
+.PHONY : bond_generate_messages_cpp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/bond_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all: CMakeFiles/tests.dir/all
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target _run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test"
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/rule
+
+# Convenience name for target.
+_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/rule
+
+.PHONY : _run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target nodelet_generate_messages_cpp"
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_cpp: video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+
+.PHONY : nodelet_generate_messages_cpp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/video_stream_node.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/video_stream_node.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_node.dir/build.make video_stream_opencv/CMakeFiles/video_stream_node.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_node.dir/build.make video_stream_opencv/CMakeFiles/video_stream_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target video_stream_node"
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_node.dir/all
+
+# Include target in all.
+all: video_stream_opencv/CMakeFiles/video_stream_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/video_stream_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/video_stream_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_node.dir/rule
+
+# Convenience name for target.
+video_stream_node: video_stream_opencv/CMakeFiles/video_stream_node.dir/rule
+
+.PHONY : video_stream_node
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/video_stream_node.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_node.dir/build.make video_stream_opencv/CMakeFiles/video_stream_node.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_node.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/video_stream_node.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/all: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target _run_tests_video_stream_opencv"
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/rule
+
+# Convenience name for target.
+_run_tests_video_stream_opencv: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/rule
+
+.PHONY : _run_tests_video_stream_opencv
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target bond_generate_messages_py"
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_py: video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/rule
+
+.PHONY : bond_generate_messages_py
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/bond_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target bond_generate_messages_eus"
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_eus: video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/rule
+
+.PHONY : bond_generate_messages_eus
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/bond_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_nodejs"
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_nodejs: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_nodejs
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target bond_generate_messages_lisp"
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_lisp: video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+.PHONY : bond_generate_messages_lisp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/build.make video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/bond_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_cpp"
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_cpp: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all: CMakeFiles/tests.dir/all
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target _run_tests_video_stream_opencv_rostest_test_test_video_file.test"
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/rule
+
+# Convenience name for target.
+_run_tests_video_stream_opencv_rostest_test_test_video_file.test: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/rule
+
+.PHONY : _run_tests_video_stream_opencv_rostest_test_test_video_file.test
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_eus"
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_eus: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_eus
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_gencfg"
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+.PHONY : dynamic_reconfigure_gencfg
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target clean_test_results_video_stream_opencv"
+.PHONY : video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/rule
+
+# Convenience name for target.
+clean_test_results_video_stream_opencv: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/rule
+
+.PHONY : clean_test_results_video_stream_opencv
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build.make video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_eus: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_eus
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/all:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/build.make video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/build.make video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num=21 "Built target video_stream_opencv_gencfg"
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/all
+
+# Include target in all.
+all: video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/rule
+
+# Convenience name for target.
+video_stream_opencv_gencfg: video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/rule
+
+.PHONY : video_stream_opencv_gencfg
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/build.make video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/video_stream_opencv_gencfg.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/all: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/all: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/all: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests_video_stream_opencv_rostest"
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/rule
+
+# Convenience name for target.
+run_tests_video_stream_opencv_rostest: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/rule
+
+.PHONY : run_tests_video_stream_opencv_rostest
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/build.make video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/run_tests_video_stream_opencv_rostest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir
+
+# All Build rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/all: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_rtsp_stream.test.dir/all
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/all: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_mjpg_stream.test.dir/all
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/all: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/all
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/depend
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles --progress-num= "Built target _run_tests_video_stream_opencv_rostest"
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/all
+
+# Build rule for subdir invocation for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles 0
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/rule
+
+# Convenience name for target.
+_run_tests_video_stream_opencv_rostest: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/rule
+
+.PHONY : _run_tests_video_stream_opencv_rostest
+
+# clean rule for target.
+video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/clean:
+	$(MAKE) -f video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/build.make video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/clean
+.PHONY : video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/clean
+
+# clean rule for target.
+clean: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory water_detection_ws
+
+# Convenience name for "all" pass in the directory.
+water_detection_ws/all:
+
+.PHONY : water_detection_ws/all
+
+# Convenience name for "clean" pass in the directory.
+water_detection_ws/clean:
+
+.PHONY : water_detection_ws/clean
+
+# Convenience name for "preinstall" pass in the directory.
+water_detection_ws/preinstall:
+
+.PHONY : water_detection_ws/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.
