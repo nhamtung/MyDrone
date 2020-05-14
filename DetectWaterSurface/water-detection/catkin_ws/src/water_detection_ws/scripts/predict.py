@@ -1,9 +1,18 @@
 #!/usr/bin/env python
 # license removed for brevity
+
+# RUN:
+# $roscore
+# $source devel/setup.bash
+# $rosrun water_detection_ws predict.py
+
 import rospy
 from std_msgs.msg import String
+from std_msgs.msg import UInt8MultiArray
+from sensor_msgs.msg import Image
 import  predictFunctions
 import cv2
+from cv_bridge import CvBridge, CvBridgeError
 
 # predictFunctions.moduleE("/data/beehive/ForTesting/videos/water/ocean/ocean_016.avi","/data/beehive/VideoWaterDatabase/masks/water/ocean/ocean_016.avi.png","/data/beehive/Results/",200,2,0,5,10,100,5)
 
@@ -43,16 +52,51 @@ def main():
   dFactor = height//PIX_HEIGHT
   print("INFO_dFactor = " + str(dFactor))
 
-  maskArr = None
-  maskArr = predictFunctions.Predict(dirVideo, DIR_MASK, dirModel, FRAME_EACH_BLOCK, dFactor, DENSITY_MODE, BOX_SIZE, PATCH_SIZE, NUM_FRAME_AVG, THRESHOLD)
-  # predictFunctions.moduleE(dirVideo,DIR_MASK,"/content/drive/My Drive/water-detection/detectPuddle/data/pond_016",200,2,0,5,10,100,4)
-
-  pub = rospy.Publisher('chatter_topic', String, queue_size=10)
   rospy.init_node('talker', anonymous=True)
-  hello_str = "hello world %s" % rospy.get_time()
-  if maskArr is not None:
-  	rospy.loginfo(hello_str)
-  	pub.publish(hello_str)
+  pub = rospy.Publisher("chatter_topic", Image)
+  rate = rospy.Rate(1) # 3 Hz
+
+  while not rospy.is_shutdown():
+  	maskArr = None
+  	maskArr = cv2.imread('/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_ws/scripts/data/analyse/NotLand1.png', 0)
+  	# maskArr = predictFunctions.Predict(dirVideo, DIR_MASK, dirModel, FRAME_EACH_BLOCK, dFactor, DENSITY_MODE, BOX_SIZE, PATCH_SIZE, NUM_FRAME_AVG, THRESHOLD)
+
+  	# print ("INFO - massArr.dtype: " + str(maskArr.dtype))
+  	# print ("INFO - maskArr: " + str(maskArr))
+
+  	msg_maskArr = CvBridge().cv2_to_imgmsg(maskArr, encoding="passthrough")
+  	if maskArr is not None:
+  		analyseImage(maskArr)
+  		# pub.publish(msg_maskArr)
+  		# print("INFO - published")
+  		# rospy.loginfo(msg_maskArr)
+  	rate.sleep()
+
+def analyseImage(massArr):
+	HEIGHT_ANALYSE = 100
+	WIDTH_ANALYSE = 200
+	height, width = massArr.shape
+	print ("INFO - maskArr.shape: " + str(massArr.shape))
+
+	pix_height_left = int((height - HEIGHT_ANALYSE)/2)
+	pix_height_right = int((height + HEIGHT_ANALYSE)/2)
+	pix_width_left = int((width - WIDTH_ANALYSE)/2)
+	pix_width_right = int((width + WIDTH_ANALYSE)/2)
+
+	print("INFO - pix_height_left = " + str(pix_height_left))
+	print("INFO - pix_height_right = " + str(pix_height_left))
+	print("INFO - pix_width_left = " + str(pix_width_left))
+	print("INFO - pix_width_right = " + str(pix_width_right))
+
+	crop_img = massArr[pix_height_left:pix_height_right, pix_width_left:pix_width_right]
+	print ("INFO - crop_img.shape: " + str(crop_img.shape))
+	# cv2.imshow("cropped", crop_img)
+	# cv2.waitKey(0)
+
+	for i in range(HEIGHT_ANALYSE):
+		for j in range(WIDTH_ANALYSE):
+			print("pix["+ str(i) + "," + str(j) + "]= " + str(crop_img[i,j]))
+
 
 if __name__ == '__main__':
     try:

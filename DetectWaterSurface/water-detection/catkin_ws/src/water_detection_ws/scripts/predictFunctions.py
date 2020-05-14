@@ -47,7 +47,7 @@ def Predict(dirVideo, dirMask, dirModel, frameBlock, dFactor, densityMode, boxSi
     model = joblib.load(dirModel) # load the SVM model
     print("Load model!")
 
-    # numBlock = 1
+    numBlock = 1
     maskArr = None
     for i in range(numBlock):
       start_time = time.time()
@@ -75,6 +75,8 @@ def Predict(dirVideo, dirMask, dirModel, frameBlock, dFactor, densityMode, boxSi
     if trueMask is not None:
         FigureOutNumbers(finalMask, trueMask)
 
+    # SaveImage(dirOutput, "maskArr", maskArr)
+    # print ("INFO - maskArr: " + str(maskArr))
     return maskArr
 
 def GetFrameVideo(dirVideo):

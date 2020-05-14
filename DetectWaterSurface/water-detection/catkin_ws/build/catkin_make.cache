@@ -1,2 +1,2 @@
-example_pkg:video_stream_opencv:water_detection_ws
+example_pkg:water_detection_ws
 -DCATKIN_DEVEL_PREFIX=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/install -G Unix Makefiles
