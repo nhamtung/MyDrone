@@ -4,7 +4,7 @@
 # RUN:
 # $roscore
 # $source devel/setup.bash
-# $rosrun water_detection_ws classifierWater.py
+# $rosrun water_detection_pkg classifierWater.py
 
 import rospy
 from sensor_msgs.msg import Image
@@ -17,13 +17,13 @@ import cv2
 def callback(msg):
     print("Received an image!")
     try:        
-        np_arr = np.fromstring(msg.data, np.uint8)
-        image_np = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
-        print("INFO -- image_np.shape = " + str(image_np.shape))
-        image_np = cv2.cvtColor(image_np, cv2.COLOR_BGR2GRAY)
-        isLand = AnalyseImage(image_np)
-        # cv2.imshow("test", image_np)
-        # cv2.waitKey(0)
+      np_arr = np.fromstring(msg.data, np.uint8)
+      image_np = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+      print("INFO -- image_np.shape = " + str(image_np.shape))
+      image_np = cv2.cvtColor(image_np, cv2.COLOR_BGR2GRAY)
+      isLand = AnalyseImage(msg, image_np)
+      # cv2.imshow("test", image_np)
+      # cv2.waitKey(0)
     except CvBridgeError as e:
       print(e)
     
@@ -43,7 +43,7 @@ def listener():
     rospy.spin()
 
 
-def AnalyseImage(massArr):
+def AnalyseImage(msg, massArr):
   HEIGHT_ANALYSE = 100
   WIDTH_ANALYSE = 200
   THRESHOLD_WATER = 0.4
@@ -71,10 +71,10 @@ def AnalyseImage(massArr):
 
   ratio = WeightAnalyse(crop_img, HEIGHT_ANALYSE, WIDTH_ANALYSE)
   if ratio >= THRESHOLD_WATER:
-    print("-----------------------------------> NOT LAND!")
+    print("-----------------------------------> " + msg.header.frame_id + ": NOT LAND!")
     return "NOT_LAND"
   else:
-    print("-----------------------------------> LAND!")
+    print("-----------------------------------> " + msg.header.frame_id + " LAND!")
     return "LAND"
 
 def SimpleAnalyse(img, height, width):

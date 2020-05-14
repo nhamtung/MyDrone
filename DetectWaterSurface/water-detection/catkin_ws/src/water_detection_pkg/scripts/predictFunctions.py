@@ -47,37 +47,36 @@ def Predict(dirVideo, dirMask, dirModel, frameBlock, dFactor, densityMode, boxSi
     model = joblib.load(dirModel) # load the SVM model
     print("Load model!")
 
-    numBlock = 1
+    # numBlock = 1
     maskArr = None
     for i in range(numBlock):
-      start_time = time.time()
-      mask, trueMask = TestBlockVideo(dirVideo, dirMask, dirOutput, model, frameBlock, dFactor, densityMode, boxSize, patchSize, numFramesAvg, i, threshold)
-      timeBlock = time.time() - start_time
-      print("Time to predict each block = ", timeBlock)
-      if mask is None:
-        print("didn't have enough frames to run this many times")
-        break
-      if maskArr is None:
-        maskArr = mask
-      else:
-        maskArr = np.dstack((maskArr,mask))
+        start_time = time.time()
+        mask, trueMask = TestBlockVideo(dirVideo, dirMask, dirOutput, model, frameBlock, dFactor, densityMode, boxSize, patchSize, numFramesAvg, i, threshold)
+        timeBlock = time.time() - start_time
+        print("Time to predict each block = ", timeBlock)
+        if mask is None:
+            print("didn't have enough frames to run this many times")
+            break
+        if maskArr is None:
+            maskArr = mask
+        else:
+            maskArr = np.dstack((maskArr,mask))
 
     if maskArr is None:
-      print("video is too short, no mask generated")
-      sys.exit()
+        print("video is too short, no mask generated")
+        sys.exit()
     if numBlock > 1:
-      finalMask = np.sum(maskArr, 2)
-      logical = finalMask < (255 * 2 * numBlock/4 )
-      finalMask[logical] = 0
-      finalMask[finalMask != 0] = 255
-      SaveImage(dirOutput, "FinalMask", finalMask)
+        finalMask = np.sum(maskArr, 2)
+        logical = finalMask < (255 * 2 * numBlock/4 )
+        finalMask[logical] = 0
+        finalMask[finalMask != 0] = 255
+        SaveImage(dirOutput, "FinalMask", finalMask)
 
     if trueMask is not None:
         FigureOutNumbers(finalMask, trueMask)
 
     # SaveImage(dirOutput, "maskArr", maskArr)
     # print ("INFO - maskArr: " + str(maskArr))
-    return maskArr
 
 def GetFrameVideo(dirVideo):
   # print("INFO - dirVideo: " + dirVideo)
