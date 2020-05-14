@@ -57,7 +57,7 @@ def main():
 
   while not rospy.is_shutdown():
   	maskArr = None
-  	maskArr = cv2.imread('/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_ws/scripts/data/analyse/NotLand1.png', 0)
+  	maskArr = cv2.imread('/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_pkg/scripts/data/analyse/NotLand1.png', 0)
   	# maskArr = predictFunctions.Predict(dirVideo, DIR_MASK, dirModel, FRAME_EACH_BLOCK, dFactor, DENSITY_MODE, BOX_SIZE, PATCH_SIZE, NUM_FRAME_AVG, THRESHOLD)
   	print("INFO -- maskArr.shape = " + str(maskArr.shape))
 

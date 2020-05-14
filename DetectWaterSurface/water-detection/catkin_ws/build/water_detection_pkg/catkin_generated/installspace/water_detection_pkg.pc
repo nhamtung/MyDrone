@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/install
+
+Name: water_detection_pkg
+Description: Description of water_detection_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
