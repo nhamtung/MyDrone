@@ -1,4 +1,4 @@
-set(image_geometry_SETUP_PY_VERSION "1.12.8")
+set(image_geometry_SETUP_PY_VERSION "1.13.0")
 set(image_geometry_SETUP_PY_SCRIPTS "")
 set(image_geometry_SETUP_PY_PACKAGES "image_geometry")
 set(image_geometry_SETUP_PY_PACKAGE_DIRS "src/image_geometry")

@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "opencv_tests")
-set(opencv_tests_VERSION "1.12.8")
+set(opencv_tests_VERSION "1.13.0")
 set(opencv_tests_MAINTAINER "Vincent Rabaud <vincent.rabaud@gmail.com>")
 set(opencv_tests_PACKAGE_FORMAT "1")
 set(opencv_tests_BUILD_DEPENDS )

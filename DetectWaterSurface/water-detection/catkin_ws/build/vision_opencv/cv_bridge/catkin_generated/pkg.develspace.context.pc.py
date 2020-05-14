@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "rosconsole;sensor_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lcv_bridge;/usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0".split(';') if "-lcv_bridge;/usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0;/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0" != "" else []
 PROJECT_NAME = "cv_bridge"
 PROJECT_SPACE_DIR = "/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/devel"
-PROJECT_VERSION = "1.12.8"
+PROJECT_VERSION = "1.13.0"

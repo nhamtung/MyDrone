@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/nhamtung/TungNV/MyDrone/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7dd66/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7dd66.dir/build.make CMakeFiles/cmTC_7dd66.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3e8f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e8f3.dir/build.make CMakeFiles/cmTC_3e8f3.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7dd66.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7dd66.dir/testCCompiler.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_7dd66
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dd66.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7dd66.dir/testCCompiler.c.o  -o cmTC_7dd66 
+Building C object CMakeFiles/cmTC_3e8f3.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e8f3.dir/testCCompiler.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3e8f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e8f3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3e8f3.dir/testCCompiler.c.o  -o cmTC_3e8f3 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ecfd6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ecfd6.dir/build.make CMakeFiles/cmTC_ecfd6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4d728/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d728.dir/build.make CMakeFiles/cmTC_4d728.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ecfd6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecfd6.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o  -o cmTC_ecfd6 
+Building C object CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4d728
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d728.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o  -o cmTC_4d728 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ecfd6' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMA6QPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ecfd6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ecfd6' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4d728' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEWF5Kt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4d728 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4d728' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ecfd6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ecfd6.dir/build.make CMakeFiles/cmTC_ecfd6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4d728/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4d728.dir/build.make CMakeFiles/cmTC_4d728.dir/build]
   ignore line: [make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ecfd6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecfd6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o  -o cmTC_ecfd6 ]
+  ignore line: [Building C object CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4d728]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d728.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o  -o cmTC_4d728 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ecfd6' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMA6QPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ecfd6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4d728' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEWF5Kt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4d728 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMA6QPh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEWF5Kt.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ecfd6] ==> ignore
+    arg [cmTC_4d728] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_ecfd6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4d728.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a4f05/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a4f05.dir/build.make CMakeFiles/cmTC_a4f05.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_17e01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17e01.dir/build.make CMakeFiles/cmTC_17e01.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4f05.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_a4f05.dir/feature_tests.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a4f05
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4f05.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a4f05.dir/feature_tests.c.o  -o cmTC_a4f05 
+Building C object CMakeFiles/cmTC_17e01.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_17e01.dir/feature_tests.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_17e01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e01.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_17e01.dir/feature_tests.c.o  -o cmTC_17e01 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ec26/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ec26.dir/build.make CMakeFiles/cmTC_8ec26.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6dadb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6dadb.dir/build.make CMakeFiles/cmTC_6dadb.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ec26.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_8ec26.dir/feature_tests.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8ec26
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec26.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ec26.dir/feature_tests.c.o  -o cmTC_8ec26 
+Building C object CMakeFiles/cmTC_6dadb.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_6dadb.dir/feature_tests.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6dadb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dadb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6dadb.dir/feature_tests.c.o  -o cmTC_6dadb 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf17d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf17d.dir/build.make CMakeFiles/cmTC_cf17d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0c98f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c98f.dir/build.make CMakeFiles/cmTC_0c98f.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf17d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_cf17d.dir/feature_tests.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cf17d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf17d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cf17d.dir/feature_tests.c.o  -o cmTC_cf17d 
+Building C object CMakeFiles/cmTC_0c98f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_0c98f.dir/feature_tests.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0c98f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c98f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0c98f.dir/feature_tests.c.o  -o cmTC_0c98f 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d11df/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d11df.dir/build.make CMakeFiles/cmTC_d11df.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_44ac9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44ac9.dir/build.make CMakeFiles/cmTC_44ac9.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d11df.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_d11df.dir/testCXXCompiler.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_d11df
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d11df.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d11df.dir/testCXXCompiler.cxx.o  -o cmTC_d11df 
+Building CXX object CMakeFiles/cmTC_44ac9.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_44ac9.dir/testCXXCompiler.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_44ac9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44ac9.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_44ac9.dir/testCXXCompiler.cxx.o  -o cmTC_44ac9 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2f1ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2f1ee.dir/build.make CMakeFiles/cmTC_2f1ee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cf26d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf26d.dir/build.make CMakeFiles/cmTC_cf26d.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2f1ee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f1ee.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2f1ee 
+Building CXX object CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cf26d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf26d.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cf26d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f1ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOcBpcL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2f1ee /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f1ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf26d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH3KDoW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cf26d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf26d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2f1ee/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2f1ee.dir/build.make CMakeFiles/cmTC_2f1ee.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cf26d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf26d.dir/build.make CMakeFiles/cmTC_cf26d.dir/build]
   ignore line: [make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2f1ee]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f1ee.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2f1ee ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cf26d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf26d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cf26d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f1ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOcBpcL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2f1ee /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf26d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH3KDoW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cf26d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccOcBpcL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccH3KDoW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2f1ee] ==> ignore
+    arg [cmTC_cf26d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_2f1ee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_cf26d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf04c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf04c.dir/build.make CMakeFiles/cmTC_cf04c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f7e57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7e57.dir/build.make CMakeFiles/cmTC_f7e57.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf04c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_cf04c.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cf04c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf04c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cf04c.dir/feature_tests.cxx.o  -o cmTC_cf04c 
+Building CXX object CMakeFiles/cmTC_f7e57.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f7e57.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7e57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7e57.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f7e57.dir/feature_tests.cxx.o  -o cmTC_f7e57 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60f13/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60f13.dir/build.make CMakeFiles/cmTC_60f13.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0a87f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a87f.dir/build.make CMakeFiles/cmTC_0a87f.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_60f13.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_60f13.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_60f13
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60f13.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_60f13.dir/feature_tests.cxx.o  -o cmTC_60f13 
+Building CXX object CMakeFiles/cmTC_0a87f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0a87f.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0a87f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a87f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0a87f.dir/feature_tests.cxx.o  -o cmTC_0a87f 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8efb1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8efb1.dir/build.make CMakeFiles/cmTC_8efb1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c359a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c359a.dir/build.make CMakeFiles/cmTC_c359a.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8efb1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8efb1.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8efb1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8efb1.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8efb1.dir/feature_tests.cxx.o  -o cmTC_8efb1 
+Building CXX object CMakeFiles/cmTC_c359a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_c359a.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c359a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c359a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c359a.dir/feature_tests.cxx.o  -o cmTC_c359a 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13ebc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13ebc.dir/build.make CMakeFiles/cmTC_13ebc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f1b79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1b79.dir/build.make CMakeFiles/cmTC_f1b79.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_13ebc.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_13ebc.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_13ebc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13ebc.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_13ebc.dir/feature_tests.cxx.o  -o cmTC_13ebc 
+Building CXX object CMakeFiles/cmTC_f1b79.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f1b79.dir/feature_tests.cxx.o -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f1b79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1b79.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f1b79.dir/feature_tests.cxx.o  -o cmTC_f1b79 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -634,28 +634,28 @@ make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/wat
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_04595/fast"
-/usr/bin/make -f CMakeFiles/cmTC_04595.dir/build.make CMakeFiles/cmTC_04595.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_71d14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71d14.dir/build.make CMakeFiles/cmTC_71d14.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_04595.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_04595.dir/CheckIncludeFile.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_04595
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04595.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_04595.dir/CheckIncludeFile.c.o  -o cmTC_04595 
+Building C object CMakeFiles/cmTC_71d14.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_71d14.dir/CheckIncludeFile.c.o   -c /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71d14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71d14.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_71d14.dir/CheckIncludeFile.c.o  -o cmTC_71d14 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9980e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9980e.dir/build.make CMakeFiles/cmTC_9980e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b9018/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9018.dir/build.make CMakeFiles/cmTC_b9018.dir/build
 make[1]: Entering directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9980e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9980e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9980e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9980e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9980e.dir/CheckFunctionExists.c.o  -o cmTC_9980e -lpthread 
+Building C object CMakeFiles/cmTC_b9018.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b9018.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9018.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b9018.dir/CheckFunctionExists.c.o  -o cmTC_b9018 -lpthread 
 make[1]: Leaving directory '/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 

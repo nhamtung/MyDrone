@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "vision_opencv")
-set(vision_opencv_VERSION "1.12.8")
+set(vision_opencv_VERSION "1.13.0")
 set(vision_opencv_MAINTAINER "Vincent Rabaud <vincent.rabaud@gmail.com>")
 set(vision_opencv_PACKAGE_FORMAT "1")
 set(vision_opencv_BUILD_DEPENDS )
