@@ -1,0 +1,83 @@
+DjiDroneAutoland1080_block0: LAND!
+DjiDroneAutoland1080_block1: LAND!
+DjiDroneAutoland1080_block2: LAND!
+DjiDroneAutoland1080_block3: LAND!
+DjiDroneAutoland1080_block4: LAND!
+DjiDroneAutoland1080_block5: LAND!
+DjiDroneAutoland1080_block6: LAND!
+DjiDroneAutoland1080_block7: LAND!
+DjiDroneAutoland1080_block8: LAND!
+DjiDroneAutoland1080_block9: LAND!
+DjiDroneAutoland1080_block10: LAND!
+water1_block0: NOT LAND!
+water1_block1: NOT LAND!
+water1_block2: NOT LAND!
+water1_block3: NOT LAND!
+MavicProPrecisionLanding2_block0: LAND!
+LandingInWater2_50fps_block0: NOT LAND!
+LandingInWater2_50fps_block1: NOT LAND!
+canal_block0: NOT LAND!
+canal_block1: NOT LAND!
+canal_block2: NOT LAND!
+canal_block3: NOT LAND!
+canal_block4: NOT LAND!
+canal_block5: NOT LAND!
+canal_block6: NOT LAND!
+canal_block7: NOT LAND!
+canal_block8: NOT LAND!
+canal_block9: NOT LAND!
+canal_block10: NOT LAND!
+canal_block11: NOT LAND!
+canal_block12: NOT LAND!
+canal_block13: NOT LAND!
+canal_block14: NOT LAND!
+canal_block15: NOT LAND!
+canal_block16: NOT LAND!
+LandingInWater1_50fps_block0: LAND!				(Wrong)
+LandingInWater1_50fps_block1: NOT LAND!
+LandingInWater1_50fps_block2: NOT LAND!
+NoneWater_50fps_block0: LAND!
+NoneWater_50fps_block1: LAND!
+NoneWater_50fps_block2: LAND!
+NoneWater_50fps_block3: NOT LAND!				(Wrong)
+NoneWater_50fps_block4: LAND!
+NoneWater_50fps_block5: LAND!
+NoneWater_50fps_block6: LAND!
+NoneWater_50fps_block7: LAND!
+MavicProPrecisionLanding_block0: LAND!
+MavicProPrecisionLanding_block1: LAND!
+MavicProPrecisionLanding3_block0: LAND!
+MavicProPrecisionLanding3_block1: LAND!
+MavicProPrecisionLanding3_block2: LAND!
+MavicProPrecisionLanding3_block3: NOT LAND!		(Wrong)
+MavicProPrecisionLanding3_block4: LAND!
+pond_50fps_block0: NOT LAND!
+pond_50fps_block1: NOT LAND!
+pond_50fps_block2: NOT LAND!
+pond_50fps_block3: NOT LAND!
+pond_50fps_block4: NOT LAND!
+pond_50fps_block5: NOT LAND!
+pond_50fps_block6: NOT LAND!
+pond_50fps_block7: NOT LAND!
+pond_50fps_block8: NOT LAND!
+pond_50fps_block9: NOT LAND!
+pond_50fps_block10: NOT LAND!
+pond_50fps_block11: NOT LAND!
+water2_block2: NOT LAND!
+water2_block3: NOT LAND!
+water3_block0: NOT LAND!
+water3_block1: NOT LAND!
+water3_block2: NOT LAND!
+floor3_block0: LAND!
+floor3_block1: LAND!
+floor3_block2: LAND!
+DroneFootage_block0: LAND!
+DroneFootage_block1: LAND!
+DroneFootage_block2: LAND!
+DroneFootage_block3: LAND!
+floor2_block0: LAND!
+floor1_block0: LAND!
+water2_block0: NOT LAND!
+water2_block1: LAND!							(Wrong)
+water2_block2: NOT LAND!
+water2_block3: NOT LAND!

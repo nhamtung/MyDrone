@@ -12,6 +12,7 @@ from cv_bridge import CvBridge, CvBridgeError
 from sensor_msgs.msg import CompressedImage
 import numpy as np
 import cv2
+import os
 
 
 def callback(msg):
@@ -42,11 +43,16 @@ def listener():
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
 
+def SaveToFile(text):
+  text_file = open("/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_pkg/scripts/data/result.txt", "a")
+  text_file.write(text + "\n")
+  text_file.close()
+  print("INFO - Saved result to file ----------> " + text)
 
 def AnalyseImage(msg, massArr):
   HEIGHT_ANALYSE = 100
   WIDTH_ANALYSE = 200
-  THRESHOLD_WATER = 0.4
+  THRESHOLD_WATER = 0.3
 
   print ("INFO - maskArr.shape: " + str(massArr.shape))
   height, width = massArr.shape
@@ -71,27 +77,13 @@ def AnalyseImage(msg, massArr):
 
   ratio = WeightAnalyse(crop_img, HEIGHT_ANALYSE, WIDTH_ANALYSE)
   if ratio >= THRESHOLD_WATER:
-    print("-----------------------------------> " + msg.header.frame_id + ": NOT LAND!")
+    textSave = msg.header.frame_id + ": NOT LAND ----- " + str(ratio) 
+    SaveToFile(textSave)
     return "NOT_LAND"
   else:
-    print("-----------------------------------> " + msg.header.frame_id + " LAND!")
+    textSave = msg.header.frame_id + ": LAND --------- " + str(ratio)
+    SaveToFile(textSave)
     return "LAND"
-
-def SimpleAnalyse(img, height, width):
-  test = np.zeros((height, width))
-  flag = 0
-  weight = 0
-  for i in range(height):
-    for j in range(width):
-      if img[i,j] == 255:
-        flag = 1
-      else:
-        flag = 0
-      weight = weight + flag
-  print("INFO - weight = " + str(weight))
-  ratio = weight/(height*width)
-  print("INFO - ratio = " + str(ratio))
-  return ratio
 
 def WeightAnalyse(img, height, width):
   test = np.zeros((height, width))
@@ -104,7 +96,7 @@ def WeightAnalyse(img, height, width):
 
   ratio = quadrant_I + quadrant_II + quadrant_III + quadrant_IV
   ratio = ratio/(height*width)
-  print("INFO - ratio = " + str(ratio))
+  # print("INFO - ratio = " + str(ratio))
   return ratio
 
 def Quadrant(img, height, width, startHeight, endHeight, stepHeight, startWidth, endWidth, stepWidth):
@@ -124,6 +116,23 @@ def Quadrant(img, height, width, startHeight, endHeight, stepHeight, startWidth,
       weight = weight + flag 
   # print("INFO - weight = " + str(weight))
   return weight
+
+
+def SimpleAnalyse(img, height, width):
+  test = np.zeros((height, width))
+  flag = 0
+  weight = 0
+  for i in range(height):
+    for j in range(width):
+      if img[i,j] == 255:
+        flag = 1
+      else:
+        flag = 0
+      weight = weight + flag
+  print("INFO - weight = " + str(weight))
+  ratio = weight/(height*width)
+  print("INFO - ratio = " + str(ratio))
+  return ratio
 
 if __name__ == '__main__':
     # dataSub = UInt8MultiArray()

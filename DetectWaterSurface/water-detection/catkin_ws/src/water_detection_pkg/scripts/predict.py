@@ -19,7 +19,20 @@ from sensor_msgs.msg import CompressedImage
 VIDEO_NAME = [
   "MavicProPrecisionLanding2.mkv",    	#0
   "LandingInWater2_50fps.mkv", 			#1
-  "canal.mkv"           				#2
+  "canal.mkv",           				#2
+  "DjiDroneAutoland1080.mkv",           #3
+  "LandingInWater1_50fps.mkv",          #4
+  "NoneWater_50fps.mkv",                #5
+  "MavicProPrecisionLanding.mkv",       #6
+  "MavicProPrecisionLanding3.mkv",      #7
+  "pond_50fps.mkv",                     #8
+  "water1.mkv",                         #9
+  "water2.mkv",                         #10
+  "water3.mkv",                         #11
+  "floor1.mkv",                         #12
+  "floor2.mkv",                         #13
+  "floor3.mkv",                         #14
+  "DroneFootage.mkv"                    #15
   ]   
 MODEL_NAME = [
   "tree_currentBest.pkl",           #0 - test with THRESHOLD = 0.62 (40020420035001074)
@@ -42,7 +55,7 @@ PIX_HEIGHT = 250
 THRESHOLD = 0.2  # water <= THRESHOLD
 
 def main():
-  dirVideo = FOLDER_VIDEO + VIDEO_NAME[2]
+  dirVideo = FOLDER_VIDEO + VIDEO_NAME[0]
   print("INFO - dirVideo: " + dirVideo)
   dirModel = FOLDER_MODEL + MODEL_NAME[1]
   print("INFO - dirModel: " + dirModel)
@@ -75,8 +88,8 @@ def Predict(dirVideo, dirMask, dirModel, frameBlock, dFactor, densityMode, boxSi
   pub = rospy.Publisher("chatter_topic", CompressedImage)
 
   maskArr = None
-  # maskArr = cv2.imread('/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_pkg/scripts/data/analyse/NotLand1.png', 0)
   for i in range(numBlock):
+    # maskArr = cv2.imread('/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_pkg/scripts/data/analyse/NotLand1.png', 0)
     maskArr = PredictEachBlock(dirVideo, dirMask, dirOutput, model, frameBlock, dFactor, densityMode, boxSize, patchSize, numFramesAvg, i, threshold)
     PubImage(pub, videoName, i, maskArr)
     rospy.loginfo("INFO - published")
