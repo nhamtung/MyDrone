@@ -15,6 +15,7 @@ import os
 from sklearn.externals import joblib
 import numpy as np
 from sensor_msgs.msg import CompressedImage
+import time
 
 VIDEO_NAME = [
   "MavicProPrecisionLanding2.mkv",    	#0
@@ -86,6 +87,7 @@ def Predict(dirVideo, dirMask, dirModel, frameBlock, dFactor, densityMode, boxSi
 
   rospy.init_node('talker', anonymous=True)
   pub = rospy.Publisher("chatter_topic", CompressedImage)
+  time.sleep(1) # Sleep for 3 seconds
 
   maskArr = None
   for i in range(numBlock):

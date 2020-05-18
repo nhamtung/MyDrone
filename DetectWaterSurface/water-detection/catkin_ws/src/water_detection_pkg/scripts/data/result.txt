@@ -80,3 +80,10 @@ canal_block16: NOT LAND ----- 0.9850500000000002
 LandingInWater2_50fps_block0: NOT LAND ----- 0.8870034200000009
 LandingInWater2_50fps_block1: NOT LAND ----- 0.9417673600000002
 MavicProPrecisionLanding2_block0: LAND --------- 0.0
+MavicProPrecisionLanding2_block0: LAND --------- 0.0
+MavicProPrecisionLanding2_block0: LAND --------- 0.0
+MavicProPrecisionLanding2_block0: NOT LAND ----- 0.7052469400000003
+MavicProPrecisionLanding2_block0: NOT LAND ----- 0.7052469400000003
+MavicProPrecisionLanding2_block0: NOT LAND ----- 0.7052469400000003
+MavicProPrecisionLanding2_block0: NOT LAND ----- 0.7052469400000003
+MavicProPrecisionLanding2_block0: NOT LAND ----- 0.7052469400000003
