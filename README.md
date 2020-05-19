@@ -10,5 +10,6 @@
 - Install Tensorflow on Jetson TX2: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html
 
 - Real Sense Depth Camera D435i:
-+ Download librealsense: https://github.com/IntelRealSense/librealsense
-+ Install librealsense for Linux using Ubuntu: https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
+	+ Download librealsense: https://github.com/IntelRealSense/librealsense
+	+ Install librealsense for Linux using Ubuntu: https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
+	+ Connect Real sense depth camera D435i and run: $realsense-viewer
