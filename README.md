@@ -8,3 +8,6 @@
 	# exit
 
 - Install Tensorflow on Jetson TX2: https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html
+
+- Real Sense Depth Camera D435i:
++ Install librealsense: https://github.com/IntelRealSense/librealsense
