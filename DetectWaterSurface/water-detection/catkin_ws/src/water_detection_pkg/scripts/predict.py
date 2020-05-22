@@ -37,7 +37,8 @@ VIDEO_NAME = [
   ]   
 MODEL_NAME = [
   "tree_currentBest.pkl",           #0 - test with THRESHOLD = 0.62 (40020420035001074)
-  "tree50020420070001074.pkl"       #1 - test good with THRESHOLD = 0.2 
+  "tree50020420070001074.pkl",      #1 - test good with THRESHOLD = 0.2 
+  "tree50020410070001050_2.pkl"     #2 - test good with THRESHOLD = 0.2 
 ]              
 
 FOLDER_VIDEO = "/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection/catkin_ws/src/water_detection_pkg/scripts/data/"
@@ -45,20 +46,20 @@ FOLDER_MODEL = "/home/nhamtung/TungNV/MyDrone/DetectWaterSurface/water-detection
 DIR_MASK = 0
 # DIR_MASK = "/content/drive/My Drive/water-detection/detectPuddle/data/pond_mask.png"
 
-FRAME_EACH_BLOCK = 200
+FRAME_EACH_BLOCK = 100
 DFACTOR = 2
 DENSITY_MODE = 0
 BOX_SIZE = 4
 PATCH_SIZE = 10
-NUM_FRAME_AVG = 74
+NUM_FRAME_AVG = 50
 
 PIX_HEIGHT = 250
 THRESHOLD = 0.2  # water <= THRESHOLD
 
 def main():
-  dirVideo = FOLDER_VIDEO + VIDEO_NAME[0]
+  dirVideo = FOLDER_VIDEO + VIDEO_NAME[7]
   print("INFO - dirVideo: " + dirVideo)
-  dirModel = FOLDER_MODEL + MODEL_NAME[1]
+  dirModel = FOLDER_MODEL + MODEL_NAME[2]
   print("INFO - dirModel: " + dirModel)
 
   numFrames, height, width, fps = predictFunctions.GetFrameVideo(dirVideo)
